@@ -1,9 +1,10 @@
-decorator==4.0.2
-imageio==2.5.0
-imageio-ffmpeg==0.2.0
+# --- Corrected MoviePy Baseline (Reality-Checked for PyPI) ---
+decorator==4.4.2
+imageio==2.31.1
+imageio-ffmpeg==0.4.9
 numpy==1.25.0
-proglog==1.0.0
-python-dotenv==0.10.0
-pillow==9.2.0
-opencv-python-headless==4.0.0.21
+proglog==0.1.10         # Actual latest stable version
+python-dotenv==0.19.2
+pillow==9.4.0           # Last of the 9.x series
+opencv-python-headless==4.8.0.76
 pytest==6.2.5
