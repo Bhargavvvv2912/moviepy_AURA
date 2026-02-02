@@ -1,0 +1,9 @@
+# --- Modernization Target: Multimedia Stack ---
+numpy
+pillow
+decorator
+imageio
+imageio-ffmpeg
+proglog
+python-dotenv
+opencv-python-headless
