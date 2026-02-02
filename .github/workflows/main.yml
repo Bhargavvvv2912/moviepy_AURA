@@ -35,8 +35,7 @@ jobs:
           python -m venv upgrade_env
           # Install unpinned (2026) versions
           ./upgrade_env/bin/pip install --upgrade -r primary_requirements.txt
-          ./upgrade_env/bin/pip install -e ".[test]"
-          # FORCE the use of the upgrade_env binaries
+          ./upgrade_env/bin/pip install -e . --no-deps
           ./upgrade_env/bin/python -m pytest tests/test_VideoClip.py
 
       - name: 🤖 Run AURA Agent
