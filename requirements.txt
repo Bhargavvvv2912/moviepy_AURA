@@ -1,10 +1,17 @@
-# --- Corrected MoviePy Baseline (Reality-Checked for PyPI) ---
-decorator==4.4.2
+-e git+https://github.com/Bhargavvvv2912/moviepy_AURA@3a4f062ff16cd2de33854e90a574bffd57c35a03#egg=moviepy
+Pillow==12.1.0
+attrs==25.4.0
+decorator==5.2.1
+imageio-ffmpeg==0.6.0
 imageio==2.31.1
-imageio-ffmpeg==0.4.9
-numpy==1.25.0
-proglog==0.1.10         # Actual latest stable version
-python-dotenv==0.19.2
-pillow==9.4.0           # Last of the 9.x series
-opencv-python-headless==4.8.0.76
-pytest==6.2.5
+iniconfig==2.3.0
+numpy==2.2.6
+opencv-python-headless==4.13.0.90
+packaging==26.0
+pluggy==1.6.0
+proglog==0.1.12
+py==1.11.0
+pytest==9.0.2
+python-dotenv==1.2.1
+toml==0.10.2
+tqdm==4.67.2
