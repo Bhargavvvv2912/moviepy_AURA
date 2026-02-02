@@ -30,10 +30,11 @@ AGENT_CONFIG = {
     "METRICS_OUTPUT_FILE": "metrics_output.txt",
     "PRIMARY_REQUIREMENTS_FILE": "primary_requirements.txt",
     "VALIDATION_CONFIG": {
-        "type": "script",
-        "smoke_test_script": "validation_moviepy.py",
+        "type": "pytest",
+        "pytest_target": "tests/test_VideoClip.py",
         "project_dir": "." 
     },
+    "INSTALL_EXTRAS": ["test"],
     "MAX_RUN_PASSES": 3,
 }
 

@@ -26,7 +26,8 @@ jobs:
           python -m venv baseline_env
           ./baseline_env/bin/pip install -r requirements.txt
           ./baseline_env/bin/pip install -e .  # Link local source
-          ./baseline_env/bin/python validation_moviepy.py
+          ./baseline_env/bin/python -m pytest tests/test_VideoClip.py
+          
 
       - name: 💥 2. Run Pip Upgrade
         continue-on-error: true
@@ -34,7 +35,7 @@ jobs:
           python -m venv upgrade_env
           ./upgrade_env/bin/pip install --upgrade -r primary_requirements.txt
           ./upgrade_env/bin/pip install -e .  # Link local source
-          ./upgrade_env/bin/python validation_moviepy.py
+          ./baseline_env/bin/python -m pytest tests/test_VideoClip.py
 
       - name: 🤖 Run AURA Agent
         run: |

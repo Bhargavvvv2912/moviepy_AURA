@@ -1,9 +1,9 @@
-# --- Modernization Target: Multimedia Stack ---
-numpy
-pillow
 decorator
 imageio
 imageio-ffmpeg
+numpy
 proglog
 python-dotenv
+pillow
 opencv-python-headless
+pytest

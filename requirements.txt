@@ -1,9 +1,9 @@
-# --- MoviePy v2.2.0 Baseline (Late 2024 State) ---
-numpy==1.26.4
-pillow==10.2.0
-decorator==5.1.1
-imageio==2.33.1
-imageio-ffmpeg==0.4.9
-proglog==0.1.10
-python-dotenv==1.0.1
-opencv-python-headless==4.9.0.80
+decorator==4.0.2
+imageio==2.5.0
+imageio-ffmpeg==0.2.0
+numpy==1.25.0
+proglog==1.0.0
+python-dotenv==0.10.0
+pillow==9.2.0
+opencv-python-headless==4.0.0.21
+pytest==6.2.5
