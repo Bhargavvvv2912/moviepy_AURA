@@ -1,4 +1,4 @@
-name: AURA Experiment - Attention Is All You Need (Repo 11)
+name: AURA Experiment - Moviepy
 
 on:
   workflow_dispatch:

@@ -24,7 +24,7 @@ class GeminiClientWrapper:
         return response
 
 AGENT_CONFIG = {
-    "PROJECT_NAME": "sbl3",
+    "PROJECT_NAME": "moviepy",
     "IS_INSTALLABLE_PACKAGE": True, 
     "REQUIREMENTS_FILE": "requirements.txt",
     "METRICS_OUTPUT_FILE": "metrics_output.txt",
